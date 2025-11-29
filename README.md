@@ -1,4 +1,3 @@
-```markdown
 # Homely Hub - Property Rental Platform
 
 ## Project Overview
