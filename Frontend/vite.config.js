@@ -7,7 +7,7 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': {
-        target: 'https://homelyhub-lhx9.onrender.com', // your backend
+        target: 'http://localhost:8080', // backend
         changeOrigin: true,
         secure: false,
       },
