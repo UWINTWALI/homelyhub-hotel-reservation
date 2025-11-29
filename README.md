@@ -1,92 +1,80 @@
-# 🏠 Homely Hub
+```markdown
+# Homely Hub - Property Rental Platform
 
-**Homely Hub** is a property rental and management web application that allows users to browse, rent, and manage properties with ease. The project follows the **MERN stack architecture** (MongoDB, Express, React, Node.js).
+## Project Overview
 
----
+Homely Hub is a complete web application for property rentals that connects people looking for homes with property owners. The platform serves as a digital marketplace where users can search for rental properties, view detailed information, and manage property listings.
 
-## 🚀 Project Overview
+## Purpose and Functionality
 
-Homely Hub provides a smooth experience for both **tenants** and **property owners**.  
-Users can:
-- View available properties with detailed descriptions and images  
-- Filter and search based on price, location, and amenities  
-- Manage property listings through an admin dashboard  
-- Securely register and log in with authentication  
+### For People Looking for Homes
+- Search and browse available rental properties
+- View property details, photos, and features
+- Use filters to find properties by price range, location, and amenities
+- Save interesting properties for later review
+- Contact property owners directly
 
----
+### For Property Owners
+- Create and publish property listings
+- Add photos and detailed descriptions
+- Manage multiple properties through a personal dashboard
+- Communicate with potential tenants
 
-## 🛠️ Tech Stack
+### Security and Accessibility
+- Secure user accounts with registration and login
+- Responsive design that works on computers, tablets, and mobile phones
+- Easy-to-use interface for all technical skill levels
 
-**Frontend:** React.js, HTML, CSS, JavaScript  
-**Backend:** Node.js, Express.js  
-**Database:** MongoDB Atlas  
-**Deployment:**  
-- Frontend → **Vercel**  
-- Backend → **Render**
+## Technical Implementation
 
----
+### Frontend-User Interface
+- Built with React.js for smooth user experience
+- Modern HTML and CSS for clean, attractive design
+- Mobile-responsive layout
 
-## 🌐 Deployment Links
+### Backend-Server Operations
+- Node.js with Express.js framework
+- Handles user requests, data processing, and business logic
 
-- **Frontend (Vercel):** [https://your-frontend-url.vercel.app](https://ynvnk-homelyhub.vercel.app/)  
-- **Backend (Render):** [https://your-backend-url.onrender.com](https://homelyhub-lhx9.onrender.com)
-- **Portfolio:** [https://yadam.vercel.app/](https://yadam.vercel.app/)
+### Data Management
+- MongoDB Atlas for secure cloud data storage
+- Organized storage of user accounts, property listings, and interactions
 
----
+### Platform Hosting
+- Frontend deployed on Vercel for reliable website access
+- Backend services hosted on Render for consistent performance
 
-## ⚙️ Installation & Setup (Local)
+## Project Access
 
-Follow the steps below to run this project locally:
+**Live Website:** https://my-domain.vercel.app/  
+**Backend API:** https://my-domain.onrender.com  
+**Developer Portfolio:** https://my-domain.vercel.app/
 
-### 1. Clone the repository
-```bash
-git clone https://github.com/yourusername/homely-hub.git
-cd homely-hub
-```
+## Key Features
 
-### 2. Install dependencies for backend
-```bash
-cd backend
-npm install
-```
+- User account creation and authentication
+- Comprehensive property search with multiple filters
+- Property listing management system
+- Image upload and display capabilities
+- Interactive user interface
+- Cross-device compatibility
 
-### 3. Install dependencies for frontend
-```bash
-cd ../frontend
-npm install
-```
+## Technical Requirements
 
-### 4. Configure environment variables
+### Development Environment Setup
+1. Code the repo
+2. Separate installation of frontend and backend dependencies
+3. Environment configuration for database and security
+4. Simultaneous operation of development servers
 
-Create a `.env` file in the backend folder and add:
-```bash
-MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=your_jwt_secret
-PORT=5000
-```
+### System Dependencies
+- Node.js runtime environment
+- MongoDB database connection
+- Modern web browser support
 
-### 5. Run the backend server
-```bash
-cd backend
-npm start
-```
+## Development Information
 
-### 6. Run the frontend
-```bash
-cd frontend
-npm run dev
-```
-
-### 📸 Features
-
-- User authentication (Register/Login)
-- Property listing & management
-- Image upload and property details view
-- Filter & search options
-- Responsive and modern UI
-
-### 👩‍💻 Author
-
-Yadam Naga Venkata Naveen Kumar
-Frontend deployed on Vercel | Backend deployed on Render
+**Developer:** Jean de Dieu UWINTWALI
+**Frontend Hosting:** Vercel platform  
+**Backend Hosting:** Render platform  
 
