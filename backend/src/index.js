@@ -15,7 +15,7 @@ const app = express();
 // Allow both dev and production origins
 const allowedOrigins = [
   'http://localhost:5173', // Vite dev server
-  'https://ynvnk-homelyhub.vercel.app', // Vercel frontend
+  'https://homelyhub-hotel-reservation.vercel.app/', // Vercel frontend
 ];
 
 app.use(
