@@ -7,7 +7,7 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': {
-        target: 'http://localhost:8080', // backend
+        target: 'https://homelyhub-hotel-reservation.onrender.com', // backend
         changeOrigin: true,
         secure: false,
       },
